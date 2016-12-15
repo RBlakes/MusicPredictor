@@ -14,13 +14,13 @@ The output in this case is a number between 0 and 1 that corresponds to an estim
 
 A 10k subset from the Million Song Dataset was obtained from the Laboratory for the Recognition and Organization of Speech and Audio(http://labrosa.ee.columbia.edu/millionsong/).  This dataset contains 54 different attributes associated with each song.  For this project 13 of those attributes were chosen to be used.
 
-(add chosen attributes)
+[![solarized dualmode](https://cloud.githubusercontent.com/assets/15314249/21211800/d96ebae6-c243-11e6-945e-17b89d483b5d.png)](#features)
 
 First the neural network was trained and tested using all 13 chosen attributes.  Then the neural network was trained and tested with all of the attributes minus one to see if removing one attribute had any effect on the accuracy of the prediction.
 
 ## Results and Conclusions
 
-(add graph of results)
+[![solarized dualmode](https://cloud.githubusercontent.com/assets/15314249/21211801/dccd6fde-c243-11e6-9cef-452c44b7b4c2.png)](#features)
 
 It was found that the neural network was able to very accurately predict how popular a song would be given all the attributes.  Also, the removal of a single attribute had very little effect on the accuracy of the prediction.  The removal of the key and mode attribute had the greatest impact on accuracy although this was still within 2% of the accuracy with all the attributes.  This means that if a song is taken and these attributes are obtained for it, it is possible to predict how popular the song will be.
 
